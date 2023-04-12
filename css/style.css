@@ -1,0 +1,158 @@
+body { 
+    font-family: "Roboto", sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    display: grid; 
+    grid-template-rows: auto 1fr auto; 
+    min-height: 100vh; 
+} 
+ 
+nav, 
+ul, 
+li, 
+span, 
+a, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 { 
+    text-decoration: none; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    color: #fff; 
+} 
+ 
+.container { 
+    padding: 0 20px; 
+} 
+ 
+.logo { 
+    font-weight: 500; 
+} 
+ 
+.menu { 
+    display: flex; 
+    justify-content: space-between; 
+    background: #333; 
+    height: 50px; 
+    align-items: center; 
+    padding: 0 20px; 
+} 
+ 
+.menu__list { 
+    display: flex; 
+    column-gap: 20px; 
+} 
+ 
+.menu__list-item {} 
+ 
+.red { 
+    color: red; 
+} 
+/* Header content */ 
+ 
+.header__content { 
+    height: 210px; 
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1); 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+ 
+.header__title { 
+    text-shadow: 2px 2px 4px #000; 
+} 
+/* Main */ 
+ 
+.main { 
+    /* padding: 0 20px; */ 
+} 
+ 
+.info__inner { 
+    display: flex; 
+    column-gap: 20px; 
+} 
+ 
+.info__menu {} 
+ 
+.info__menu-item { 
+    color: #000; 
+    margin-left: 30px; 
+    list-style-type: disc; 
+} 
+ 
+.info__btn { 
+    padding: 15px; 
+    border-radius: 5px; 
+    background-color: #f76161; 
+    text-transform: uppercase; 
+    font-size: 14px; 
+    border-bottom: 5px solid #fc9595; 
+    display: inline-block; 
+} 
+ 
+.info__btn .fa-map-marker-alt { 
+    padding-right: 10px; 
+} 
+/* spotlight  */ 
+ 
+.spotlight { 
+    background: #444; 
+    padding: 10px 0; 
+    color: #fff; 
+} 
+ 
+.spotlight__title { 
+    font-size: 21px; 
+} 
+ 
+.spotlight__subtext { 
+    margin-top: 5px; 
+    font-size: 14px; 
+} 
+ 
+.spotlight__box { 
+    display: flex; 
+    justify-content: space-around; 
+} 
+ 
+.spotlight__item { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    color: #000; 
+    background-color: #fff; 
+    border-radius: 5px; 
+    border-bottom: 7px solid #000; 
+    width: 32.4%; 
+    padding: 22px 0 10px 0; 
+} 
+ 
+.spotlight__item .fas { 
+    font-size: 45px; 
+} 
+/* Footer */ 
+ 
+.footer { 
+    background: #333; 
+    padding: 20px 0; 
+} 
+ 
+.footer__inner { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+} 
+ 
+.footer__box { 
+    color: #fff; 
+}
